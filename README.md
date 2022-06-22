@@ -5,7 +5,7 @@ This application is meant to be runned to show the results of the model of predi
 	- ```cd the_project_folder/```
 	- ```pip install -r requirements.txt```
 
-To run the application, run the following commands:
+To run the application, type the following commands:
 - ```cd app```
 - ```streamlit run app.py```
 
