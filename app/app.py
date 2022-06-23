@@ -10,7 +10,7 @@ import pickle
 # configuration
 
 st.set_page_config(
-                    page_title="Healthy and faulty Audio Prediction",
+                    page_title="Healthy and faulty Audios Prediction",
                     page_icon="chart_with_upwards_trend",
                     layout="wide",
                     initial_sidebar_state="auto",
@@ -19,7 +19,7 @@ st.set_page_config(
 
 # sidebar
 
-st.sidebar.markdown('# About Audio Prediction :')
+st.sidebar.markdown('# About Audios Prediction :')
 
 st.sidebar.markdown("""<div style="text-align: justify;"><p>For Audio Vectorization, we used <strong>MFCC</strong> (<strong>Mel-Frequency Cepstral Coefficients</strong>) :</p><p>It's a a representation of the short-term power spectrum of a sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency.</p></div>""", unsafe_allow_html=True)
 
@@ -28,7 +28,7 @@ st.sidebar.markdown("""<div style="text-align: justify;"><p>For Audio Prediction
 
 
 # title and description
-st.title('Healthy and faulty Audio Prediction')
+st.title('Healthy and faulty Audios Prediction')
 st.markdown('This application has the purpose to predict whether or not an Audio File is Healthy')
 st.subheader("Informations to fill :")
 
