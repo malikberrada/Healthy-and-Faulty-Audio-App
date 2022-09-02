@@ -6,6 +6,12 @@ import librosa
 import librosa.display
 import numpy as np
 import pickle
+import os
+
+os.system("apt-get update")
+os.system("apt-get upgrade -y")
+os.system("apt-get install -y")
+os.system("apt-get -y install apt-utils gcc libpq-dev libsndfile-dev")
 
 # configuration
 
