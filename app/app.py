@@ -32,7 +32,7 @@ st.title('Healthy and faulty Audios Prediction')
 st.markdown('This application has the purpose to predict whether or not an Audio File is Healthy')
 st.subheader("Informations to fill :")
 
-model_path = '..\pickle\SVM-model-Healthy-Faulty-Audios.pkl'
+model_path = 'pickle\SVM-model-Healthy-Faulty-Audios.pkl'
 
 def features_extractor(file):
     #load the file (audio)
