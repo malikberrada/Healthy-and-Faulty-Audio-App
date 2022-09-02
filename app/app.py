@@ -32,7 +32,7 @@ st.title('Healthy and faulty Audios Prediction')
 st.markdown('This application has the purpose to predict whether or not an Audio File is Healthy')
 st.subheader("Informations to fill :")
 
-model_path = 'pickle\SVM-model-Healthy-Faulty-Audios.pkl'
+model_path = r'pickle/SVM-model-Healthy-Faulty-Audios.pkl'
 
 def features_extractor(file):
     #load the file (audio)
@@ -49,7 +49,7 @@ is_clk_pred = info_form.form_submit_button('Predict Audio')
 if is_clk_pred:
     extracted_features_pred = []
     for fl in file:
-        relative_path = '..\\Data\\Test\\' + fl.name
+        relative_path = r'Data/Test/' + fl.name
         with open(relative_path, mode='wb') as f:
             f.write(fl.getvalue())
         data = features_extractor(relative_path)
